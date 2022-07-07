@@ -1,0 +1,155 @@
+.container5{
+display:flex;
+}
+
+.abt{
+display:flex;
+}
+.abt2{
+    width: 50rem;
+    margin-left: 40px;
+    padding-top: 80px;
+}
+
+.profilename{
+color:#00000;
+}
+.profile-card-2 {
+    max-width: 500px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+margin-left:100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    font-size: 30px;
+    color: #563b3b;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 36px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+
+
+.card-content{
+    background-color: #ffffffcc;
+    text-align: center;
+    position: relative;
+    padding: 11rem;
+}
+.container6{
+display:flex;
+}
+.profile5 {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 5px;
+	max-hight:110px;
+margin-top: 10px;
+	    
+}
+.h31{
+padding: 10px;
+    border: 3px ;
+max-width: 34rem;
+    max-height: 7rem;
+    display: flex;
+	margin-right: 30px;
+}
+.icon-img{
+width:60px;
+    padding-top: 15px;
+}
+.profile5 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profilenameuser{
+ font-weight: 700;
+    font-variant-caps: petite-caps;
+    font-size: 14px;
+}
+
+.profilename{
+
+font-weight: 700;
+    font-variant-caps: petite-caps;
+font-size:18px;
+
+}
+
+.profile5 .profilenameuser {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    color: #245234;
+    font-size: 13px;
+    transition: all linear 0.25s;
+   line-height:15px;
+   
+}
+
+.profile5:hover .profilename {
+    bottom: 80px;
+}
+
+.profile5:hover .profilenameuser {
+    bottom: 5px;
+}
+
+.profile5:hover .profile-icons {
+    right: 40px;
+}
